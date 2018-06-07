@@ -13,3 +13,11 @@ console.log(combined);
 
 
 
+//another example: 
+
+const animals = ['squirrel', 'bear', 'deer', 'salmon', 'rat'];
+const mammals = [...animals.slice(0,3), ...animals.slice(4)];
+
+console.log(mammals);
+
+// result should be: ["squirrel", "bear", "deer", "rat"]
