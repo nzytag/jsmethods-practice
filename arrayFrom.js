@@ -14,3 +14,4 @@ const doubledValues = Array.from([2,3,4], number => number *2);
 console.log(doubledValues);
 
 //result should be: [4,6,8]
+
