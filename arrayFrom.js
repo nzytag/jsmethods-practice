@@ -7,3 +7,11 @@ const newArray = Array.from('norzagaray');
 console.log(newArray);
 
 // result should be ["n", "o", "r", "z", "a", "g", "a", "r", "a", "y"]
+
+//another example: Create an array that has double the value for each item in another array.
+
+const doubledValues = Array.from([2,3,4], number => number *2);
+console.log(doubledValues);
+
+//result should be: [4,6,8]
+
