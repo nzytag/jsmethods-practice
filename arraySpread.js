@@ -11,5 +11,14 @@ console.log(combined);
 
 //Result should be: [1, 2, 3, 4, 5, 5, 6, 7, 8, 9]
 
+//another example: remove an array element without mutating the original array
+
+const animals = ['squirrel', 'bear', 'deer', 'salmon', 'rat'];
+const mammals = [...animals.slice(0,3), ...animals.slice(4)];
+
+console.log(mammals);
+
+//Result should be: ["squirrel", "bear", "deer", "rat"]
+
 
 
